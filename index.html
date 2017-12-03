@@ -5,10 +5,217 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
     <link href="assets/css/main.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <title>Bootstrap components</title>
+    <title>Bootstrap components by building on or modifying it.</title>
   </head>
   <body>
-    <section class="">
+
+    <header><!--jumbotron-->
+      <div class="container"><!--container-->
+        <div  class="row"><!--row-->
+          <div class="col-12"><!--col-12-->
+            <div class="jumbotron">
+              <h1>Theme example</h1>
+              <p>This is a template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point to   create something more unique</p>
+              </div>  
+            </div><!--col-12-->
+          </div><!--row-->
+      </div><!--container-->
+    </header><!--jumbotron-->
+
+    <section><!--botones-->
+      <div class="container"><!--container botones grandes-->
+        <div class="row"><!--row-->
+          <div class="col-12"><!--col-12-->
+            <button type="button" class="btn btn-lg">Default</button>
+            <button type="button" class="btn btn-lg">Primary</button>
+            <button type="button" class="btn btn-lg">Success</button>
+            <button type="button" class="btn btn-lg">Info</button>
+            <button type="button" class="btn btn-lg">Warning</button>
+            <button type="button" class="btn btn-lg">Danger</button>
+            <a href="#" class="btn btn-lg">Link</a>
+          </div><!--col-12-->
+        </div><!--row-->  
+        <div class="row"><!--row botones medianos-->
+          <div class="col-12"><!--col-12-->
+            <button type="button" class="btn btn-default">Default</button>
+            <button type="button" class="btn btn-default">Primary</button>
+            <button type="button" class="btn btn-default">Success</button>
+            <button type="button" class="btn btn-default">Info</button>
+            <button type="button" class="btn btn-default">Warning</button>
+            <button type="button" class="btn btn-default">Danger</button>
+            <a href="#" class="btn">Link</a>
+          </div><!--col-12-->
+        </div><!--row botones medianos-->
+        <div class="row"><!--row botones pequeños-->
+          <div class="col-12"><!--col-12-->
+            <button type="button" class="btn btn-sm">Default</button>
+            <button type="button" class="btn btn-sm">Primary</button>
+            <button type="button" class="btn btn-sm">Success</button>
+            <button type="button" class="btn btn-sm">Info</button>
+            <button type="button" class="btn btn-sm">Warning</button>
+            <button type="button" class="btn btn-sm">Danger</button>
+            <a href="#" class="btn btn-sm">Link</a>
+          </div><!--col-12-->
+        </div><!--row botones pequeños-->
+        <div class="row"><!--row botones pequeños-->
+          <div class="col-12"><!--col-12-->
+            <button type="button" class="btn btn-xs">Default</button>
+            <button type="button" class="btn btn-xs">Primary</button>
+            <button type="button" class="btn btn-xs">Success</button>
+            <button type="button" class="btn btn-xs">Info</button>
+            <button type="button" class="btn btn-xs">Warning</button>
+            <button type="button" class="btn btn-xs">Danger</button>
+            <a href="#" class="btn btn-xs">Link</a>
+          </div><!--col-12-->
+        </div><!--row botones pequeños-->     
+      </div><!--container-->
+    </section><!--botones-->
+
+    <section><!--tablas-->
+      <div class="container"><!--container-->
+        <div class="row"><!--row tabla estandar-->
+          <div class="col-md-6"><!--col-6-->
+            <table class="table"><!--tabla normal-->
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>User Name</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table><!--tabla normal-->
+          </div><!--col-6-->
+          <div class="col-md-6"><!--col-6-->
+            <table class="table table-striped"><!--tabla tipo cebra-->
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>User Name</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table><!--tabla tipo cebra-->
+          </div><!--col-6-->
+        </div><!--row tabla estandar--> 
+        <div class="row"><!--row tabla estandar-->
+          <div class="col-md-6"><!--col-6-->
+            <table class="table table-bordered"><!--tabla con bordes-->
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>User Name</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@TwBootstrap</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Larry the Bird</td>
+                  <td></td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table><!--tabla con bordes-->
+          </div><!--col-6-->
+          <div class="col-md-6"><!--col-6-->
+            <table class="table table-condensed"><!--tabla condensada-->
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>User Name</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Larry the Bird</td>
+                  <td></td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table><!--tabla condensada-->
+          </div><!--col-6-->
+        </div><!--row tabla estandar--> 
+      </div><!--container-->
+    </section><!--tablas-->
+
+    <!--nav invertido-->
+    <div class="container">
       <nav class="navbar navbar-inverse navbar-fixed-top"">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -22,7 +229,7 @@
           </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">  
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-left">
               <li><a href="#">Sumo</a></li>
               <li><a href="#">Features</a></li>
               <li class="dropdown">
