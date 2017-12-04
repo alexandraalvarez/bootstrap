@@ -1,0 +1,13 @@
+.badges {
+	padding-bottom: 1rem;
+}
+a .badge {
+	margin-left: 0.5rem;
+}
+.profile {
+	margin-left: 0.5rem;
+}
+#messages {
+	padding-left: 0;
+	padding-right: 0;
+}
